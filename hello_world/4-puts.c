@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc puts("Programming is like building a multilingual puzzle") -o
+gcc "4-puts.c" -o puts("Programming is like building a multilingual puzzle") 
