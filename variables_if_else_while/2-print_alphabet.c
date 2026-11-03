@@ -1,16 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h> 
+#include <stdio.h>
 
+/**
+ * main - This prints the alphabet using a loop
+ *
+ * Return: Always 0 (Success).
+ */
 int main(void)
-{ 
-  char ch;
+{
+	char ch;
 
-  for (ch = 'a'; ch <= 'z'; ch++)
-  {
-    putchar(ch);
-  }
-  putchar(ch);
-  
-  return (0);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+
+	return (0);
 }
