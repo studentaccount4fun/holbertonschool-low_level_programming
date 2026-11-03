@@ -4,9 +4,13 @@
 
 int main(void)
 { 
-  int a=0
-  while(a>z)
-{
-  putchar(abzfasofj)
-return (0);
+  char ch;
+
+  for (ch = 'a'; ch <= 'z'; ch++)
+  {
+    putchar(ch);
+  }
+  putchar(ch);
+  
+  return (0);
 }
