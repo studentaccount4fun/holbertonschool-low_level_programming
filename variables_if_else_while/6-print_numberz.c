@@ -11,7 +11,7 @@ int n;
 n = 0;
 
 for (n = '0'; n <= '9'; n++)
-  putchar('n\n);
+  putchar('n\n');
 
 return (0);
 }
