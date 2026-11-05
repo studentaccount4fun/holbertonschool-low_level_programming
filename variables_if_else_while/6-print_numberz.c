@@ -10,11 +10,8 @@ int main(void)
 int n;
 n = 0;
 
-while (n < 10)
-{
-printf("%d", n);
-n++;
-}
-putchar('\n');
+for (n = '0'; n <= '9'; n++)
+  putchar(n);
+
 return (0);
 }
