@@ -20,5 +20,5 @@ putchar(CH);
 }
 putchar('\n');
 return (0);
-} 
+}
 }
