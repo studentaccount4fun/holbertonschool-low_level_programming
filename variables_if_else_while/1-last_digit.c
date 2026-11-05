@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - This program randomises the value n, and then uses strings to find it.
+ * main - This program randomises value n, then finds it
  * Return: Always 0 (Success)
  */
 
