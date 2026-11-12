@@ -2,12 +2,18 @@
 #include <stdio.h>
 
 /**
- * (main) fix later
+ * _strlen - Returns the length of a string.
+ * @s: This is the string we're using.
  *
- * Return: Always 0.
+ * Return: We return the ineger length.
  */
 
 int _strlen(char *s)
 {
- printf("strln/n", *s);
+ int lenght = 0;
+ while (s[length] != '\0')
+{
+ length++;
+}
+return(length);
 }
