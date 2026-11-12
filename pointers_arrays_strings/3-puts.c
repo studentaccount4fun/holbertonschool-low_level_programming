@@ -1,18 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - What I'm doing is printing a string that goes to stdout using _puts.
+ * _puts - What I'm doing is printing a string that goes to stdout using _puts.
+ *@str - this is the string itself.
  *
  * return: Always 0
  */
 
-int main(void)
+
 void _puts(char *str)
 {
-	char *str;
-
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	_puts(str);
-	return(0);
-
+int i = 0;
+while (str[i] != '\0')
+{
+_putchar(str[i]);
+i++;
+}
+_putchar('\n');
 }
