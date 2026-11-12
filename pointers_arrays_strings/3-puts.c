@@ -1,10 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - What I'm doing is printing a string using puts
+ * main - What I'm doing is printing a string that goes to stdout using _puts.
  *
- * return: we'll see
+ * return: Always 0
  */
 
 int main(void)
