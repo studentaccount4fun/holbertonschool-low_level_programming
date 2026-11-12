@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - this swaps two values
- *
+ * swap_int - this swaps two values
+ * @a: - this is the first integer to be swapped
+ * @b: - this is the second integer to be swapped
  * Return: Always 0
  */
 
